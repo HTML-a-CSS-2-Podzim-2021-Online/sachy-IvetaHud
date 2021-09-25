@@ -17,10 +17,15 @@ h1 {
     text-align: center;
 }
 
+.hrac2 h2 {
+    text-align: right;
+}
+
 .hraci {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .fotka_hrace img {
@@ -31,6 +36,18 @@ h1 {
     border-radius: 5%;
 }
 
+.jmeno {
+    padding: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: rgb(83, 81, 81);
+}
 
 .hrac1 {
     display: flex;
@@ -58,5 +75,7 @@ h1 {
 .sachovnice img {
     width: 60px
 }
+
+
 
 
