@@ -72,8 +72,70 @@ p {
     grid-template-rows: repeat(8, 1fr);
 }
 
-.sachovnice img {
-    width: 60px
+.figurka {
+    height: 70px;
+    width: auto;
+}
+
+.figurka:nth-child(1) {
+    grid-column: 6;
+    grid-row: 8;
+}
+
+.figurka:nth-child(2) {
+    grid-column: 6;
+    grid-row: 6;
+}
+
+.figurka:nth-child(3) {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.figurka:nth-child(4) {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.figurka:nth-child(5) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.figurka:nth-child(6) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+.figurka:nth-child(7) {
+    grid-column: 8;
+    grid-row: 4;
+}
+
+.figurka:nth-child(8) {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.figurka:nth-child(9) {
+    grid-column: 3;
+    grid-row: 8;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.tlacitko {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(48, 126, 172);
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 20px;
 }
 
 
